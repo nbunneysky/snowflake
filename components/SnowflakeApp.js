@@ -65,7 +65,8 @@ const emptyState = (): SnowflakeAppState => {
       'MENTORSHIP': 0,
       'EVANGELISM': 0,
       'RECRUITING': 0,
-      'COMMUNITY': 0
+      'COMMUNITY': 0,
+      'CORE_VALUES': 0
     },
     focusedTrackId: 'MOBILE'
   }
@@ -91,7 +92,8 @@ const defaultState = (): SnowflakeAppState => {
       'MENTORSHIP': 2,
       'EVANGELISM': 2,
       'RECRUITING': 3,
-      'COMMUNITY': 0
+      'COMMUNITY': 0,
+      'CORE_VALUES': 1
     },
     focusedTrackId: 'MOBILE'
   }
