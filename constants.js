@@ -23,7 +23,8 @@ export type MilestoneMap = {
   'MENTORSHIP': Milestone,
   'EVANGELISM': Milestone,
   'RECRUITING': Milestone,
-  'COMMUNITY': Milestone
+  'COMMUNITY': Milestone,
+  'CORE_VALUES': Milestone
 }
 export const milestones = [0, 1, 2, 3, 4, 5]
 
@@ -86,7 +87,8 @@ type Tracks = {|
   'MENTORSHIP': Track,
   'EVANGELISM': Track,
   'RECRUITING': Track,
-  'COMMUNITY': Track
+  'COMMUNITY': Track,
+  'CORE_VALUES': Track             
 |}
 
 export const tracks: Tracks = {
@@ -1158,6 +1160,52 @@ export const tracks: Tracks = {
         "Organized wine and olive tasting offsite to Napa for the whole engineering org",
         "Devised, delivered and acted on findings from an engineer happiness survey",
         "Challenged and corrected exclusionary behaviour or policies",
+      ],
+    }],
+  },
+  "CORE_VALUES": {
+    "displayName": "Core Values",
+    "category": "D",
+    "description": "Exhibits the core values set forward by SkySlope",
+    "milestones": [{
+      "summary": "Exhibits one core value",
+      "signals": [
+        "TBD",
+      ],
+      "examples": [
+        "TBD",
+      ],
+    },{
+      "summary": "Exhibits two core values",
+      "signals": [
+        "TBD",
+      ],
+      "examples": [
+        "TBD",
+      ],
+    },{
+      "summary": "Exhibits four core values",
+      "signals": [
+        "TBD",
+      ],
+      "examples": [
+        "TBD",
+      ],
+    },{
+      "summary": "Exhibits six core values",
+      "signals": [
+        "TBD",
+      ],
+      "examples": [
+        "TBD",
+      ],
+    },{
+      "summary": "Exhibits eight core values",
+      "signals": [
+        "TBD",
+      ],
+      "examples": [
+        "TBD",
       ],
     }],
   },
