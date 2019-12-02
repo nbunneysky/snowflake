@@ -157,9 +157,9 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             text-decoration: none;
           }
         `}</style>
-        <div style={{margin: '19px auto 0', width: 142}}>
-          <a href="https://medium.com/" target="_blank">
-            <Wordmark />
+        <div style={{margin: '19px auto 0', width: 400}}>
+          <a href="https://skyslope.com/" target="_blank" style={{color: 'black', fontSize: '40px'}}>
+            SkySlope Snowflake
           </a>
         </div>
         <div style={{display: 'flex'}}>
